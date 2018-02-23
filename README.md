@@ -91,7 +91,6 @@ import requests
 response = requests.get("https://172.16.10.10:8080/platform/1/quota/quotas", auth=('root', 'a'), verify=False)
 response.status_code
 response.text
-a = json.loads(response.text)
 response.close()
 ```
 
