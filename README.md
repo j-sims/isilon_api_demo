@@ -3,10 +3,9 @@
 The following is a quick start repo for using the Isilon APIs (PAPI & RAN) to automate.
 
 # Reference Documentation
-API Guide - https://support.emc.com/docu84279_OneFS-8.1.0-API-Reference.pdf
-Tech Specs - https://support.emc.com/docu84267_Isilon-OneFS-8.1.0-and-IsilonSD-Edge:-Technical-Specifications-Guide.pdf
-Code Samples - https://support.emc.com/docu53714_OneFS_API_Code_Samples.zip
-Isilon SDK InfoHub - https://community.emc.com/docs/DOC-48273
+API Guide - https://support.emc.com/docu84279_OneFS-8.1.0-API-Reference.pdf <br>
+Tech Specs - https://support.emc.com/docu84267_Isilon-OneFS-8.1.0-and-IsilonSD-Edge:-Technical-Specifications-Guide.pdf <br>
+Code Samples - https://support.emc.com/docu53714_OneFS_API_Code_Samples.zip <br>
 
 # Step 1 - Authentication - Create Local user on Isilon CLI
 ```bash
@@ -105,4 +104,9 @@ response = requests.delete("https://172.16.10.10:8080/platform/1/quota/quotas", 
 response.status_code
 response.text
 response.close()
+```
+
+# Step 12 SDK setup
+```bash
+pip install isi-sdk-8-1-0
 ```
