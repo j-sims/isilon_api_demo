@@ -65,7 +65,7 @@ response.close()
 ```bash
 isi quota create /ifs/data/Shares directory --advisory-threshold=10G
 isi quota list
-isi debug quota delete /ifs/data/Shares --type directory
+isi quota delete /ifs/data/Shares --type directory
 ```
 
 # Step 8 - Create/List/Delete API Calls from CLI commands
