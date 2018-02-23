@@ -2,6 +2,10 @@
 
 The following is a quick start repo for using the Isilon APIs (PAPI & RAN) to automate.
 
+# Reference Documentation
+API Guide - https://support.emc.com/docu84279_OneFS-8.1.0-API-Reference.pdf
+Tech Specs - https://support.emc.com/docu84267_Isilon-OneFS-8.1.0-and-IsilonSD-Edge:-Technical-Specifications-Guide.pdf
+Code Samples - https://support.emc.com/docu53714_OneFS_API_Code_Samples.zip
 
 # Step 1 - Authentication - Create Local user on Isilon CLI
 ```bash
